@@ -1,0 +1,50 @@
+.container{
+    text-align: center;
+    margin-top: 150px;
+}
+*{
+    background-color: darkseagreen;
+
+}
+.std-name{
+    background-color: aliceblue;
+    width: 200px;
+    height: 30px;
+    border-radius : 50px; ;
+    border-color: midnightblue;
+    text-align: center;
+}
+.ft-name{
+    background-color: aliceblue;
+    width: 200px;
+    height: 30px;
+    border-radius : 50px; ;
+    border-color: midnightblue;
+    text-align: center;
+}
+.rol-num{
+    background-color: aliceblue;
+    width: 200px;
+    height: 30px;
+    border-radius : 50px; ;
+    border-color: midnightblue;
+    text-align: center;    
+}
+.rd-btn-1{
+    width: 30px;
+    height: 15px;
+}
+.rd-btn-2{
+    width: 30px;
+    height: 15px;
+}
+
+#drp-dwn{
+    background-color: aliceblue;
+}
+.reg-btn{
+    background-color: aliceblue;
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+}

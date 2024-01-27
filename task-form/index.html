@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <input type="text" placeholder="Student Name" name="std-name" class="std-name"><br /><br />
+        <input type="text" placeholder="Father Name" name="ftname" class="ft-name"><br /><br />
+        <input type="text" placeholder="Roll Number" name="rollnum" class="rol-num"><br /><br />
+        <input type="radio" name="weekdays" value="weekdays" class="rd-btn">Week-days
+        <input type="radio" name="weekdays" value="weekdays" class="rd-btn">Week-ends<br /><br />
+
+        <label>Choose your favorite subject:</label> <br />
+
+        <select name="" id="drp-dwn">
+            <option value="" id="drp-dwn">--select--</option>
+            <option value="web app" id="drp-dwn">WEB AND MOBILE APPLICATION DEVELOPMENT</option>
+            <option value="BLOCKCHAIN" id="drp-dwn">BLOCKCHAIN</option>
+            <option value="AI" id="drp-dwn">ARTIFICAL INTALIGENCE</option>
+        </select>
+        <br /><br />
+        <button class="reg-btn" onclick="regInfo()">Register</button>
+    </div>
+
+    <div class="domPara"> <hr /></div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
